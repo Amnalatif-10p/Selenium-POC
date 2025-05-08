@@ -3,30 +3,28 @@
 This is a Java-based Selenium automation project developed to demonstrate a test automation framework using Selenium WebDriver, TestNG, and Page Object Model.
 
 ## Project Structure
-
 SeleniumPOC/
 │
-├── .idea/ # IntelliJ IDEA config files
+├── .idea/                     # IntelliJ IDEA config files
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── base/ # Base test setup (e.g., WebDriver config)
-│ │ │ │ └── BaseTest.java
-│ │ │ ├── org.example/ # Main entry (optional)
-│ │ │ │ └── Main.java
-│ │ │ └── pages/ # Page Object Models
-│ │ │ └── LoginPage.java
-│ └── test/
-│ └── java/
-│ └── tests/ # Test classes
-│ └── LoginTest.java
+│   ├── main/
+│   │   └── java/
+│   │       ├── base/          # Base test setup (e.g., WebDriver config)
+│   │       │   └── BaseTest.java
+│   │       ├── org.example/   # Main entry (optional)
+│   │       │   └── Main.java
+│   │       └── pages/         # Page Object Models
+│   │           └── LoginPage.java
+│   └── test/
+│       └── java/
+│           └── tests/         # Test classes
+│               └── LoginTest.java
 │
-├── target/ # Compiled output
-├── extent-report.html # Test report
-├── pom.xml # Maven dependencies and plugins
-├── testing.xml # TestNG suite configuration
-└── README.md # Project description
-
+├── target/                    # Compiled output
+├── extent-report.html         # Test report
+├── pom.xml                    # Maven dependencies and plugins
+├── testing.xml                # TestNG suite configuration
+└── README.md                  # Project description
 
 ## Tech Stack
 
